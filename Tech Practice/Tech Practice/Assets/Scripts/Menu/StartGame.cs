@@ -12,12 +12,14 @@ public class StartGame : MonoBehaviour
     public FlagTrigger flag;
     // какой текст между переходами нужно показать
     public TextNumber num;
+    public TextNumber num2;
     // номер сцены
     public SceneChangeNumder scCh;
 
     public void Awake() 
     {
         num.SetNewCount();
+        num2.SetNewCount();
         scCh.SetNewCount();
         pos.SetNewPosition(new Vector3(50, 4, 48));
         flag.setTrue();

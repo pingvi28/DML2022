@@ -2331,6 +2331,7 @@ MonoBehaviour:
   pos: {fileID: 11400000, guid: 902f193e5e7718545b82158b3f6fc0e7, type: 2}
   flag: {fileID: 11400000, guid: a52d8808ecfaa9a428475dc78cdc55a7, type: 2}
   num: {fileID: 11400000, guid: ee044df6d9150954f8ed4c6f3c53951b, type: 2}
+  num2: {fileID: 11400000, guid: cc392ea784e850847a282ab871534615, type: 2}
   scCh: {fileID: 11400000, guid: 342405e7ac8849841958a9ee22556963, type: 2}
 --- !u!1 &1220801252
 GameObject:

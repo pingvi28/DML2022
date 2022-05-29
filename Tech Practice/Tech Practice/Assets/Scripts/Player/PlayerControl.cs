@@ -61,7 +61,7 @@ public class PlayerControl : MonoBehaviour
     {
         PlayerMove();
         GamingGravity();
-        //pos.SetNewPosition(transform.position);
+        pos.SetNewPosition(transform.position);
     }
 
     bool GetJump() // проверяем, есть ли коллайдер под ногами
