@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class Scenes : MonoBehaviour//, IPointerClickHandler
 {
     public Quest qu;
+    private Animator animator;
 
     /*
     public void OnPointerClick(PointerEventData eventData) 
@@ -15,11 +16,18 @@ public class Scenes : MonoBehaviour//, IPointerClickHandler
         }
     }*/
 
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (qu.questNumber == 1 && other.CompareTag("Player"))
         {
-            NextLevel();
+            //gameObject.SetActive(false);
+
+            animator.SetBool("quest", true);
             qu.increaseQueuestNumber();
         }
     }

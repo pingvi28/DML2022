@@ -9,7 +9,7 @@ public class Spawn : MonoBehaviour
 
     public void SpawnDroppedItem()
     {
-        Vector3 playerPos = new Vector3(vv.initialValue.x - 1 , vv.initialValue.y + 1, vv.initialValue.z - 1);
+        Vector3 playerPos = new Vector3(vv.initialValue.x + 5 , vv.initialValue.y + 5, vv.initialValue.z + 35);
         Instantiate(item, playerPos, Quaternion.identity);
     }
 }

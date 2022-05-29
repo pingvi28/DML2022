@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6483381defa19fb4fa11560ad3746401, type: 3}
   m_Name: Scene Change Num
   m_EditorClassIdentifier: 
-  sceneChangeCount: 7
+  sceneChangeCount: 0
