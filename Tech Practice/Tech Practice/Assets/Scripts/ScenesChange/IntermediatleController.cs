@@ -33,9 +33,9 @@ public class IntermediatleController : MonoBehaviour
 	{
 		int count = scCh.sceneChangeCount;
 
-		if (count == 1 || count == 3 || count == 5) 
+		if (count == 1) 
 		{
-			SceneManager.LoadScene("MainScene");
+			SceneManager.LoadScene("House Scene");
 		}
 		else if (count == 2)		{
 			SceneManager.LoadScene("Jumping");

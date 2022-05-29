@@ -19,7 +19,7 @@ public class StartGame : MonoBehaviour
     {
         num.SetNewCount();
         scCh.SetNewCount();
-        pos.SetNewPosition(new Vector3(40, 3, 56));
+        pos.SetNewPosition(new Vector3(50, 4, 48));
         flag.setTrue();
     }
 
