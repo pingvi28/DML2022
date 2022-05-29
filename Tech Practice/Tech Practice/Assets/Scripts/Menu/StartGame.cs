@@ -1,0 +1,30 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+
+public class StartGame : MonoBehaviour
+{
+    // для сохранения позиции игрока между сценами
+    public VectorValue pos;
+    // для перехода в локацию озера
+    public FlagTrigger flag;
+    // какой текст между переходами нужно показать
+    public TextNumber num;
+    // номер сцены
+    public SceneChangeNumder scCh;
+
+    public void Awake() 
+    {
+        num.SetNewCount();
+        scCh.SetNewCount();
+        pos.SetNewPosition(new Vector3(40, 3, 56));
+        flag.setTrue();
+    }
+
+    public void startGame()
+    {
+        SceneManager.LoadScene("Intermediate");
+    }
+}
