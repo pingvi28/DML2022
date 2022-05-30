@@ -15,7 +15,7 @@ public class HouseQU : MonoBehaviour//, IPointerClickHandler
         {
      
             if (inventory.isFull[0] == true || inventory.isFull[1] == true) {
-                num.IncreaseCount();
+                num.SetNewCount();
                 NextLevel();
             }
         }
