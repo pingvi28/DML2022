@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Oven.unity
     guid: f9e888baea72e2e4d8398aa071e5badc
+  - enabled: 1
+    path: Assets/Scenes/Swamp.unity
+    guid: 66590802e7de308439c43305112e0a51
   m_configObjects: {}

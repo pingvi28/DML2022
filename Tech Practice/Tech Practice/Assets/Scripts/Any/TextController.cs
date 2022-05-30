@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TextController : MonoBehaviour
-{ 
-	public TextNumber num;
+{
+	public SceneChangeNumder scCh;
 	public GameObject[] Text;
 	public bool flag = true;
 
 	private void Start()
 	{ 
-		int count = num.count;
+		int count = scCh.sceneChangeCount;
 
 		if (count <= Text.Length) 
 		{
