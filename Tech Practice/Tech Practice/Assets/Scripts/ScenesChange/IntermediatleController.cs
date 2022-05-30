@@ -9,13 +9,13 @@ public class IntermediatleController : MonoBehaviour
 	public SceneChangeNumder scCh;
 	public TextNumber num;
 	public Animator animPlay;
-	public Animator animHome;
+	//public Animator animHome;
 
 	private void Awake()
 	{
 		instance = this;
 		animPlay.SetTrigger("Play");
-		animHome.SetTrigger("Home");
+		//animHome.SetTrigger("Home");
 	}
 
 	private void Start() 

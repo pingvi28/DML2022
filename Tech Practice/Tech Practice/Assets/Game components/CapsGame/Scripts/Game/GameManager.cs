@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
 	public float restartDelay = 1f;
 	private bool gameHasEnded = false;
-	public int countCow = 7;
+	public int countApple = 7;
 
 	private void Awake()
 	{
@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
 	private void Update() 
 	{
-		if (Score.score == countCow) 
+		if (Score.score > countApple) 
 		{
 			SceneManager.LoadScene("Intermediate");
 		}
@@ -57,6 +57,6 @@ public class GameManager : MonoBehaviour
 	{
 		scCh.ReduseScCount();
 		text.RuduseCount();
-		SceneManager.LoadScene("MainScene");
+		SceneManager.LoadScene("Swamp");
 	}
 }

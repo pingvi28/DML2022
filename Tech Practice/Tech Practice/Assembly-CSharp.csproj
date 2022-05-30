@@ -52,7 +52,7 @@
      <Compile Include="Assets\Scripts\ScenesChange\LevelChangeAnim.cs" />
      <Compile Include="Assets\Game components\CapsGame\Scripts\Game\GameManager.cs" />
      <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Waypoints3.cs" />
-     <Compile Include="Assets\Game components\CapsGame\Scripts\Game\CowTrigger.cs" />
+     <Compile Include="Assets\Game components\CapsGame\Scripts\Game\AppleTrigger.cs" />
      <Compile Include="Assets\Scripts\ScriptableObject\VectorValue.cs" />
      <Compile Include="Assets\Game components\Jumper\Scripts\BaseControl.cs" />
      <Compile Include="Assets\Scripts\Menu\StartGame.cs" />
@@ -87,12 +87,14 @@
      <Compile Include="Assets\Scripts\Dialogue\DialogAnim.cs" />
      <Compile Include="Assets\Scripts\Dialogue\Wanted\Backet.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\BoyQU.cs" />
      <Compile Include="Assets\Environment\LowPolyFencePack\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\Inventary\Inventory.cs" />
      <Compile Include="Assets\Scripts\Inventary\Case.cs" />
      <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Waypoints1.cs" />
      <Compile Include="Assets\Game components\Jumper\Scripts\PlayerControllerJump.cs" />
      <Compile Include="Assets\Game components\Jumper\Scripts\Error.cs" />
+     <Compile Include="Assets\Scripts\Any\Baba_Yaga.cs" />
      <Compile Include="Assets\Game components\Jumper\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\CameraControl.cs" />
      <Compile Include="Assets\Scripts\ScenesChange\ShutdownWaterScript.cs" />
@@ -107,6 +109,9 @@
      <None Include="Assets\Environment\Supercyan Free Forest Sample\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Environment\Supercyan Free Forest Sample\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\Environment\Supercyan Free Forest Sample\Shaders\SupercyanShader.shader" />
+     <None Include="Assets\Environment\Forest\Shaders\SupercyanShader.shader" />
+     <None Include="Assets\Environment\Forest\Shaders\SupercyanShaderLighting.cginc" />
+     <None Include="Assets\Environment\Forest\Shaders\Legacy\CelShader.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
