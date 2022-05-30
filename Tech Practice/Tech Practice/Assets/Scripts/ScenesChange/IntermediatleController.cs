@@ -53,5 +53,9 @@ public class IntermediatleController : MonoBehaviour
 		{
 			SceneManager.LoadScene("Apple");
 		}
+		else if (count == 7)
+		{
+			SceneManager.LoadScene("GameMenu");
+		}
 	}
 }

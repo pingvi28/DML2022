@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
 	private void Update() 
 	{
-		if (Score.score > countApple) 
+		if (Score.score >= countApple) 
 		{
 			SceneManager.LoadScene("Intermediate");
 		}
