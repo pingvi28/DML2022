@@ -49,5 +49,9 @@ public class IntermediatleController : MonoBehaviour
 		{
 			SceneManager.LoadScene("Swamp");
 		}
+		else if (count == 7)
+		{
+			SceneManager.LoadScene("Apple");
+		}
 	}
 }

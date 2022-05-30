@@ -11,7 +11,7 @@ public class Backet : MonoBehaviour//, IPointerClickHandler
 
     private void OnTriggerStay(Collider other)
     {
-        if (quest.questNumber == 5 && other.CompareTag("Player"))
+        if ((quest.questNumber == 5 || quest.questNumber == 6 ) && other.CompareTag("Player"))
         {
             num.SetNewCount();
             NextLevel();
