@@ -93,7 +93,6 @@
     <Compile Include="Assets\Environment\LowPolyFencePack\Scripts\DoorToggle.cs" />
     <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Waypoints4.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogAnim.cs" />
-    <Compile Include="Assets\Something.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Environment\LowPolyFencePack\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\Inventary\Inventory.cs" />
@@ -111,6 +110,8 @@
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\DoorQU.cs" />
     <Compile Include="Assets\Scripts\Pause\Pause.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogTrigger.cs" />
+    <Compile Include="Assets\Scripts\ScenesChange\Mushroom\OvenQU.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Wanted\Backet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />

@@ -5,7 +5,6 @@ using UnityEngine;
 public class QuestCloud : MonoBehaviour
 {
     public Animator[] clouds;
-    public GameObject cloudImg;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +12,6 @@ public class QuestCloud : MonoBehaviour
         {
             foreach(Animator anim in clouds)
             {
-                cloudImg.SetActive(true);
                 anim.SetTrigger("isTriggered");
             }
         }
@@ -25,7 +23,6 @@ public class QuestCloud : MonoBehaviour
         {
             foreach (Animator anim in clouds)
             {
-                cloudImg.SetActive(false);
                 anim.SetTrigger("isTriggered");
             }
         }

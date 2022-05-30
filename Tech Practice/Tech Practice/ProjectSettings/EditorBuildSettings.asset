@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/House Scene.unity
     guid: 6df31df815dfe644e80379e02cb779a4
+  - enabled: 1
+    path: Assets/Scenes/Oven.unity
+    guid: f9e888baea72e2e4d8398aa071e5badc
   m_configObjects: {}

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703427393625541574}
   - component: {fileID: 8860651282211530234}
+  - component: {fileID: 7278901377958738594}
   m_Layer: 0
   m_Name: derevo 3
   m_TagString: Untagged
@@ -83,6 +84,19 @@ LODGroup:
     - renderer: {fileID: 1602569912756162335}
     - renderer: {fileID: 1752899684988470970}
   m_Enabled: 1
+--- !u!65 &7278901377958738594
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182611084252025212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5325129, y: 1.4056478, z: 0.6208811}
+  m_Center: {x: -0.07944176, y: 0.20282401, z: -0.5211684}
 --- !u!1 &783011436429570930
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,16 +33,17 @@ public class IntermediatleController : MonoBehaviour
 	{
 		int count = scCh.sceneChangeCount;
 
-		if (count == 1) 
+		if (count == 1 || count == 6) 
+		{
+			SceneManager.LoadScene("Intermediate");
+		}
+		else if (count == 2)
 		{
 			SceneManager.LoadScene("House Scene");
 		}
-		else if (count == 2)		{
-			SceneManager.LoadScene("Jumping");
-		}
-		else if (count == 4)
+		else if (count == 3)
 		{
-			SceneManager.LoadScene("CapsGame");
+			SceneManager.LoadScene("Oven");
 		}
 	}
 }

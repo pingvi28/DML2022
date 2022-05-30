@@ -10,7 +10,7 @@ public class Quest : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag != "Player" && other.gameObject.GetComponent<PickUp>().id == items[questNumber])
+        if (other.CompareTag("t1") && other.gameObject.GetComponent<PickUp>().id == items[questNumber])
         {
             questNumber++;
             Destroy(other.gameObject);
