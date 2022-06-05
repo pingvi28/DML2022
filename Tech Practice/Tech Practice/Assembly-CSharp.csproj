@@ -56,18 +56,18 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Game\CapsMovement.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Game\CapsMovement.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\FlagTrigger.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\LevelChangeAnim.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Game\GameManager.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Waypoints3.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Game\AppleTrigger.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Game\GameManager.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Road scripts\Waypoints3.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Game\AppleTrigger.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\VectorValue.cs" />
     <Compile Include="Assets\Game components\Jumper\Scripts\BaseControl.cs" />
     <Compile Include="Assets\Scripts\Menu\StartGame.cs" />
     <Compile Include="Assets\Scripts\Inventary\PickUp.cs" />
     <Compile Include="Assets\Scripts\Any\ShowLostedCow.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\RoadGenerator.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Road scripts\RoadGenerator.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\IntermediatleController.cs" />
     <Compile Include="Assets\Scripts\Any\MidSceneData.cs" />
     <Compile Include="Assets\Scripts\Any\TextController.cs" />
@@ -75,12 +75,12 @@
     <Compile Include="Assets\Scripts\ScriptableObject\TextExercise.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\SceneChangeNumder.cs" />
     <Compile Include="Assets\Scripts\Any\WaterTriigger.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Game\FollowPlayer.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Game\PlayerCollision.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Game\FollowPlayer.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Game\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Any\ShowKey.cs" />
     <Compile Include="Assets\Scripts\Player\DontDestroySingleton.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\ScenesWithTrigger.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Road.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Road scripts\Road.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\OvenQU.cs" />
     <Compile Include="Assets\Scripts\Camera\PlayerCameraController.cs" />
     <Compile Include="Assets\Scripts\Any\ShowPound.cs" />
@@ -90,9 +90,9 @@
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\Inventary\Spawn.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Waypoints2.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Road scripts\Waypoints2.cs" />
     <Compile Include="Assets\Environment\LowPolyFencePack\Scripts\DoorToggle.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Waypoints4.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Road scripts\Waypoints4.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogAnim.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Wanted\Backet.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
@@ -100,7 +100,7 @@
     <Compile Include="Assets\Environment\LowPolyFencePack\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\Inventary\Inventory.cs" />
     <Compile Include="Assets\Scripts\Inventary\Case.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Road scripts\Waypoints1.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Road scripts\Waypoints1.cs" />
     <Compile Include="Assets\Game components\Jumper\Scripts\PlayerControllerJump.cs" />
     <Compile Include="Assets\Game components\Jumper\Scripts\Error.cs" />
     <Compile Include="Assets\Scripts\Any\Baba_Yaga.cs" />
@@ -108,7 +108,7 @@
     <Compile Include="Assets\CameraControl.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\ShutdownWaterScript.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\TextNumber.cs" />
-    <Compile Include="Assets\Game components\CapsGame\Scripts\Game\Score.cs" />
+    <Compile Include="Assets\Game components\Apple\Scripts\Game\Score.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\HouseQU.cs" />
     <Compile Include="Assets\Game components\Jumper\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\DoorQU.cs" />

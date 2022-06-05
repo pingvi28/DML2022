@@ -5146,6 +5146,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DropItem
       objectReference: {fileID: 0}
+    - target: {fileID: 5115322955812462647, guid: 8824c918d7875884f9c09d9a0b720fd7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115322955812462647, guid: 8824c918d7875884f9c09d9a0b720fd7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115322955812462647, guid: 8824c918d7875884f9c09d9a0b720fd7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -475.12958
+      objectReference: {fileID: 0}
     - target: {fileID: 6728294710260327381, guid: 8824c918d7875884f9c09d9a0b720fd7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
